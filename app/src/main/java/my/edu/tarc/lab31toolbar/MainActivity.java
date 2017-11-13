@@ -53,8 +53,6 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
         else if(id==R.id.action_increase){
-
-
             textViewMessage.setTextSize(COMPLEX_UNIT_SP, ++size);
         }
         else if(id==R.id.action_decrease){
